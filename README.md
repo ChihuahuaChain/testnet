@@ -157,23 +157,23 @@ Enable the service
 
 ```bash
 sudo -S systemctl daemon-reload
-sudo -S systemctl enable chihuahuad
+sudo -S systemctl enable woofnet
 ```
 
 - #### Start the node
 
 You can start the node by running
 ```bash
-sudo systemctl start chihuahuad
+sudo systemctl start woofnet
 
 # check the logs by running
-journalctl -u chihuahuad -f
+journalctl -u woofnet -f
 ```
 The node will take some time to catch-up with the blockchain.
 You can follow the blocks being indexed by rnning
 
 ```bash
-journalctl -u chihuahuad -f | grep indexed
+journalctl -u woofnet -f | grep indexed
 ```
 
 # Join the Validators _(testnet)_
