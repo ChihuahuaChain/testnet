@@ -49,7 +49,7 @@ source ~/.profile
 
 go version
 ```
-The output should be `go version go1.19 linux/amd64`
+The output should be `go version go1.20.6 linux/amd64`
 
 - #### Install Chihuahua from sources
 
