@@ -78,7 +78,7 @@ wget -O ~/.chihuahuad/config/genesis.json https://raw.githubusercontent.com/Chih
 - #### Add Persistent Peers
 
 ```bash
-peers="dd8b324412ebc6e3870432d20a272f684df74967@testnet.chihuahua.wtf:35565"
+peers="dd8b324412ebc6e3870432d20a272f684df74967@testnet.chihuahua.wtf:36656"
 sed -i.bak -e "s/^persistent_peers *=.*/persistent_peers = \"$peers\"/" ~/.chihuahuad/config/config.toml
 ```
 
