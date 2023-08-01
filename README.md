@@ -133,7 +133,7 @@ sudo nano /etc/systemd/system/woofnet.service
 
 # paste and edit <your-user> with your username
 [Unit]
-Description=Chihuahua Daemon (cosmovisor)
+Description=Chihuahua Testnet Daemon (cosmovisor)
 After=network-online.target
 
 [Service]
